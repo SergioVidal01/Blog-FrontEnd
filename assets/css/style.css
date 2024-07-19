@@ -101,23 +101,23 @@ margin: 10px;
 }
 .carta__img {
     width: 189px;
-height: 145px;
-top: 226px;
-left: 764px;
-gap: 0px;
-border-radius: 20px 20px 20px 20px;
-opacity: 0px;
+    height: 145px;
+    top: 226px;
+    left: 764px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
 
 }
 
 .carta__logo--small {
     width: 39.79px;
-height: 40px;
-top: 329px;
-left: 983px;
-gap: 0px;
-border-radius: 77px 77px 77px 77px;
-opacity: 0px;
+    height: 40px;
+    top: 329px;
+    left: 983px;
+    gap: 0px;
+    border-radius: 77px 77px 77px 77px;
+    opacity: 0px;
 
 }
 
@@ -176,35 +176,39 @@ text-align: left;
     text-align: left;
 }
 
-.carta__body--left {
-    
-    
-}
+
 .novedades__section--left {
     margin-top: 27px;
 
 }
 .novedades__section--right {
     margin-top: 4.5rem;
-
 }
+
+
 .populares {
-    display: flex;
-    flex-direction: column;
-    flex: 2;
+ width: 80%;
+    margin-top: 3rem;
     padding-left: 6rem;
+    flex-direction: row;
+    padding-left: 6rem;
+    flex: 4;
+
     
 }
+.populares__tittle {
+   
+}
 .card__container {
-
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-
+   
 }
    
 .categorias {
-
+margin-top: 3rem;
 display: flex;
 flex: 1;
 flex-direction: column;
@@ -212,24 +216,25 @@ gap: 1.5rem;
 padding-right: 121px;
 align-items: center;
 }
+
 .categorias__item {
  width: 298px;
 height: 89px;
 border-radius: 10px 10px 10px 10px;
-background-color: #E93E30;
+
 display: flex;
 align-items: center;
 justify-content: space-between;
 
 }
-.categorias img {
+
+.categorias__image {
     width: 85px;
     height: 74px;
    
 
 }
-.categorias p {
-    
+.categorias p { 
 font-size: 32px;
 font-weight: 700;
 line-height: 48px;
@@ -238,5 +243,60 @@ margin-right: 15px;
 margin-top: 10px;
 
 }
+.tarjeta {
+    width: 298px;
+    height: 200px;
 
+}
+.tarjeta__body {
+    width: 298px;
+    height: 200px;
+}
+
+.tarjeta__image {
+    width: 298px;
+    height: 200px;
+    width: 100%;
+    
+    border-radius: 20px 20px 20px 20px;
+
+}
+.tarjeta__tittle {
+  
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 30px;
+    text-align: left;
+}
+.tarjeta__logo--small, .tarjeta__foot {
+    display: inline;
+    margin-top: 1rem; 
+  
+    
+}
+
+    .tarjeta__logo--small {
+ 
+        width: 40px;
+        height: 40px;
+        border-radius: 77px 77px 77px 77px;
+    
+    
+}
+.tarjeta__foot {
+    padding-top: 30px;
+   
+
+}
+
+
+
+
+footer {
+    border-top: 2px solid #CCCCCC;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;  
+}
 
