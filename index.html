@@ -1,36 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"/>
 
-<link rel="stylesheet" href="./assets/css/style.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Blog Front End</title>
 </head>
-<body>
-<header>
-    <img class="image__header" src="./assets/img/logos/adl.png" alt=""> Blog FrontEnd
-</header>
 
+<body>
+    <header class="header">
+        <img class="header__logo" src="./assets/img/logos/adl.png" alt="" /> Blog
+        FrontEnd
+    </header>
+    
+    <main class="">
+        
+    <div class="novedades">
+        
+        <section class="novedades__section--left">
+            <h1 class="novedades__tittle">Novedades</h1>
+
+            <img src="./assets/img/posts/bootstrap.png" class="novedades__image1" alt="" />
+            <p class="novedades__date">24 Noviembre, 2022</p>
+            <p class="novedades__desc">
+                Modifica el tema de boostrap con variables CSS
+            </p>
+            <img src="./assets/img/logos/adl.png" class="novedades__logo" alt="" />
+            <p class="novedades__foot">Desafío Latam</p>
+        </section>
+
+        <section class="novedades__section--right">
+           
+            <div class="carta">
+                <div class="carta__body--left">
+                    <img src="./assets/img/posts/Herencia-JS.png" class="carta__img" alt="" />
+                </div>
+                <div class="carta__body--right">
+                    <p class="carta__fecha">24 Noviembre, 2022</p>
+                    <p class="carta__desc">Herencia en JavaScript</p>
+                    <img src="./assets/img/logos/adl.png" class="carta__logo--small" alt="" /> 
+                    <p class="carta__foot">Desafío Latam</p>
+                </div>   
+            </div>
+            <div class="carta">
+            <div class="carta__body--left">
+                <img src="./assets/img/posts/Etiquetas-semánticas-HTML.png" class="carta__img" alt="" />
+            </div>
+            <div class="carta__body--right">
+                <p class="carta__fecha">24 Noviembre, 2022</p>
+                <p class="carta__desc">Etiquetas semánticas</p>
+                <img src="./assets/img/logos/adl.png" class="carta__logo--small" alt="" /> 
+                <p class="carta__foot" >Desafío Latam</p>
+            </div>
+        </div>
+        <div class="carta">
+        <div class="carta__body--left">
+                <img src="./assets/img/posts/reactComponents.png" class="carta__img" alt="" />
+            </div>
+            <div class="carta__body--right">   
+            <p class="carta__fecha">24 Noviembre, 2022</p>
+                <p class="carta__desc">Componentes React</p>
+                <img src="./assets/img/logos/adl.png" class="carta__logo--small" alt="" /> 
+                <p class="carta__foot" >Desafío Latam</p>
+            </div>
+        </div>
+        </section>
+    </div>
+</main>
+
+
+
+<section class="d-flex">
+    <div class="populares">
+        <h2>Populares</h2>
+        <div class="card__container">
+  
+    
+            <div id="mostrarCardText" class="card" style="width: 18rem;">
+            <img src="./assets/img/posts/vue-components.png" class="" alt="...">
+            <div  class="card-body"> 
+              <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+              <div><p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci..</p>
+              </div>
+            </div>
+          </div>
+
+          
+            <div id="mostrarCardText" class="card" style="width: 18rem;">
+            <img src="./assets/img/posts/api-js.png" class="" alt="...">
+            <div  class="card-body"> 
+              <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+              
+              <div id="receta1"><p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci..</p>
+              </div>
+              
+            </div>
+          </div>
+
+         
+            <div id="mostrarCardText" class="card" style="width: 18rem;">
+            <img src="./assets/img/posts/sass.jpg" class="" alt="...">
+            <div  class="card-body"> 
+              <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+              
+              <div id="receta1"><p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci..</p>
+              </div>
+              
+            </div>
+          </div>
+
+            <div id="mostrarCardText" class="card" style="width: 18rem;">
+            <img src="./assets/img/posts/bootstrap.png" class="" alt="...">
+            <div  class="card-body"> 
+              <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+              
+              <div id="receta1"><p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci..</p>
+              </div>
+              
+            </div>
+          </div>
+   
+    </div>
+    
+    </div>
+   
 
     
-     
-    <script
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js">
-         </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script
-          src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
-           </script>
+    
+    
+    <div class="categorias">
+        <h2>Categorías</h2>
+       
+        <div class="categorias__item">
+            <img src="./assets/img/logos/html.png" alt="">
+            <p>HTML</p>
+        </div>
+
+        <div class="categorias__item">
+            <img src="./assets/img/logos/html.png" alt="">
+            <p>HTML</p>
+        </div>
+
+        <div class="categorias__item">
+            <img src="./assets/img/logos/html.png" alt="">
+            <p>HTML</p>
+        </div>
+
+        <div class="categorias__item">
+            <img src="./assets/img/logos/html.png" alt="">
+            <p>HTML</p>
+        </div>
+
+        <div class="categorias__item">
+            <img src="./assets/img/logos/html.png" alt="">
+            <p>HTML</p>
+        </div>
+
+        <div class="categorias__item">
+            <img src="./assets/img/logos/html.png" alt="">
+            <p>HTML</p>
+        </div>
+    
+    </div>
+
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
