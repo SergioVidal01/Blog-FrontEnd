@@ -187,20 +187,21 @@ text-align: left;
 
 
 .populares {
- width: 80%;
-    margin-top: 3rem;
-    padding-left: 6rem;
-    flex-direction: row;
-    padding-left: 6rem;
+    width: 100%;
     flex: 4;
-
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: row;
+   
+ 
     
 }
 .populares__tittle {
-   
+   display: flex;
+  
 }
 .card__container {
-    width: 70%;
+    
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -221,7 +222,6 @@ align-items: center;
  width: 298px;
 height: 89px;
 border-radius: 10px 10px 10px 10px;
-
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -231,9 +231,9 @@ justify-content: space-between;
 .categorias__image {
     width: 85px;
     height: 74px;
-   
-
 }
+
+
 .categorias p { 
 font-size: 32px;
 font-weight: 700;
@@ -275,7 +275,7 @@ margin-top: 10px;
     
 }
 
-    .tarjeta__logo--small {
+.tarjeta__logo--small {
  
         width: 40px;
         height: 40px;
