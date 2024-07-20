@@ -187,25 +187,20 @@ text-align: left;
 
 
 .populares {
-    width: 100%;
-    flex: 4;
     display: flex;
-    margin-left: 3rem;
-    flex-direction: row;
-   
+  
  
     
 }
 .populares__tittle {
-   display: flex;
+   
   
 }
 .card__container {
-    
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-   
+    gap: 5px;
+
 }
    
 .categorias {
@@ -246,11 +241,13 @@ margin-top: 10px;
 .tarjeta {
     width: 298px;
     height: 200px;
+   
 
 }
 .tarjeta__body {
-    width: 298px;
-    height: 200px;
+    width: 300px;
+    height: 170px;
+  
 }
 
 .tarjeta__image {
@@ -262,15 +259,19 @@ margin-top: 10px;
 
 }
 .tarjeta__tittle {
-  
+  width: 300px;
+  height: 60px;
     font-size: 20px;
     font-weight:bold;
     line-height: 30px;
     text-align: left;
+
 }
 .tarjeta__logo--small, .tarjeta__foot {
     display: inline;
-    margin-top: 1rem; 
+    margin-top: 1rem;
+   
+    
   
     
 }
@@ -285,6 +286,7 @@ margin-top: 10px;
 }
 .tarjeta__foot {
     padding-top: 30px;
+    
    
 
 }
