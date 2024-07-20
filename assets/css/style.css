@@ -1,14 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+tipos de letra 
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+
 body {
     background-color: white;
+    font-family: "Poppins", sans-serif;
 }
 header {
-    border-bottom: 2px solid #CCCCCC
+    border-bottom: 2px solid #CCCCCC;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;  
 }
-.image__header {
+main {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #CCCCCC;
+    flex-direction: column;
+    align-items: center;
     
+
+}
+.header__logo {   
 Width: 55px;
 Height: 55px;
 Top: 38px;
 Left: 109px;
+margin: 38px 0px 37px 109px;
+}
+.novedades__tittle {
+  
+   display: flex;
+}
+
+.novedades__image1 {
+    width: 603px;
+height: 314px;
+top: 226px;
+left: 105px;
+gap: 0px;
+border-radius: 20px 20px 20px 20px;
+opacity: 0px;
 
 }
+.novedades__logo {
+    width: 60px;
+    height: 60px;
+    top: 653px;
+    left: 105px;
+    gap: 0px;
+    border-radius: 77px 77px 77px 77px;
+    opacity: 0px;
+}
+.novedades__date {
+   
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+
+}
+.novedades__desc {
+
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+
+}
+.novedades__foot{
+display: inline;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+margin: 10px;
+
+
+
+}
+.carta__img {
+    width: 189px;
+    height: 145px;
+    top: 226px;
+    left: 764px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+
+}
+
+.carta__logo--small {
+    width: 39.79px;
+    height: 40px;
+    top: 329px;
+    left: 983px;
+    gap: 0px;
+    border-radius: 77px 77px 77px 77px;
+    opacity: 0px;
+
+}
+
+.carta {
+   display: flex;
+   margin-left: 56px;
+  padding: 10px;
+}
+.novedades {
+    display: flex;
+   
+}
+.novedades__tittle {
+    text-align: start;
+
+}
+
+
+.carta__body--right {
+    
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+.carta__body--right {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.carta__body--right {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin-left: 20px;
+}
+.carta__fecha {
+    
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.carta__desc {
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+}
+.carta__foot {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.novedades__section--left {
+    margin-top: 27px;
+
+}
+.novedades__section--right {
+    margin-top: 4.5rem;
+}
+
+
+.populares {
+    display: flex;
+  
+ 
+    
+}
+.populares__tittle {
+   
+  
+}
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+   
+.categorias {
+margin-top: 3rem;
+display: flex;
+flex: 1;
+flex-direction: column;
+gap: 1.5rem;
+padding-right: 121px;
+align-items: center;
+}
+
+.categorias__item {
+ width: 298px;
+height: 89px;
+border-radius: 10px 10px 10px 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.categorias__image {
+    width: 85px;
+    height: 74px;
+}
+
+
+.categorias p { 
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+color: white;
+margin-right: 15px;
+margin-top: 10px;
+
+}
+.tarjeta {
+    width: 298px;
+    height: 200px;
+   
+
+}
+.tarjeta__body {
+    width: 300px;
+    height: 170px;
+  
+}
+
+.tarjeta__image {
+    width: 298px;
+    height: 200px;
+    width: 100%;
+    
+    border-radius: 20px 20px 20px 20px;
+
+}
+.tarjeta__tittle {
+  width: 300px;
+  height: 60px;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 30px;
+    text-align: left;
+
+}
+.tarjeta__logo--small, .tarjeta__foot {
+    display: inline;
+    margin-top: 1rem;
+   
+    
+  
+    
+}
+
+.tarjeta__logo--small {
+ 
+        width: 40px;
+        height: 40px;
+        border-radius: 77px 77px 77px 77px;
+    
+    
+}
+.tarjeta__foot {
+    padding-top: 30px;
+    
+   
+
+}
+
+
+
+
+footer {
+    border-top: 2px solid #CCCCCC;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;  
+}
+
